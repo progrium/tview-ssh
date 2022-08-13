@@ -1,5 +1,5 @@
 # tview-ssh
-Example using [tcell](https://github.com/gdamore/tcell)+[tview](https://github.com/rivo/tview) over SSH using [gliderlabs/ssh](https://github.com/gliderlabs/ssh). There is a little bit of glue, but not enough for a library. Plus it's probably incomplete. Here is what it looks like to make an SSH server that shows a modal when you connect:
+Example using [tcell](https://github.com/gdamore/tcell)+[tview](https://github.com/rivo/tview) over SSH using [gliderlabs/ssh](https://github.com/gliderlabs/ssh) without allocating a PTY or creating a subprocess. There is a little bit of glue, but maybe not enough for a library? Plus it's probably incomplete. Here is what it looks like to make an SSH server that shows a modal when you connect:
 
 ```golang
 func main() {
